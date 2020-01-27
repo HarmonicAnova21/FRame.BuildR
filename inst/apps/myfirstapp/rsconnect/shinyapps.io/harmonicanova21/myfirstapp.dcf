@@ -1,0 +1,12 @@
+name: myfirstapp
+title: myfirstapp
+username:
+account: harmonicanova21
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1688014
+bundleId: 2746249
+url: https://harmonicanova21.shinyapps.io/myfirstapp/
+when: 1579702577.11618
+asMultiple: FALSE
+asStatic: FALSE

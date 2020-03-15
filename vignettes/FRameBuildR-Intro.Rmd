@@ -27,7 +27,7 @@ Welcome to FRame.BuildR.  This package is designed for Frame Theorists intereste
 
 As a brief overview of the package, it currently has 4 primary functions:
 
-* build.grp() - Converts a set of integers into a group object.  Currently only works with Cyclic groups based on the integers (Z mod n).
+* build.group() - Converts a set of integers into a group object.  Currently only works with Cyclic groups based on the integers (Z mod n).
 
 * build.ds() - Converts a vector of integers and a group into a difference set object (Currently has the same restrictions as build.grp).
 

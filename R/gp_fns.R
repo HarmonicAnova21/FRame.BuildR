@@ -1,6 +1,6 @@
 #Function List:
 #             1.  is.group()
-#             2.  build.grp()
+#             2.  build.group()
 
 
 #Function     - is.group()

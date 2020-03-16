@@ -91,7 +91,7 @@ g<-build.group(as.integer(0:6))
 
 * Build a difference set object:
 ```{r, eval = FALSE}
-diff.set<-build.ds(as.integer(2,4,5,6))
+diff.set<-build.ds(as.integer(2,4,5,6), h=g)
 ```
 
 * Pass your difference set object to frame.ds:

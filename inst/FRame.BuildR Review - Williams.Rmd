@@ -7,7 +7,7 @@ output: html_document
     
   - Are the results accurate?
   
-      Yes, to my knowledge they seem accurate. I have a background in abstract algebra so I can appreciate the utility this package provides.
+      Yes, to my knowledge they seem accurate. I have a background in abstract algebra. So I can appreciate the utility this package provides.
       
   - Is it clear how the results were computed?
   

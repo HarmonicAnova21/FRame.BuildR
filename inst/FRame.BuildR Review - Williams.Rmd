@@ -1,0 +1,54 @@
+---
+title: "FRame.BuildR Review: Williams"
+output: html_document
+---
+
+**Accuracy**
+    
+  - Are the results accurate?
+  
+      Yes, to my knowledge they seem accurate. I have a background in abstract algebra. So I can appreciate the utility this package provides.
+      
+  - Is it clear how the results were computed?
+  
+    Yes, the vignette provides an explanation of what is occurring.
+      
+      
+**Compilation**
+    
+  - Did the analytic work? (i.e. install correctly, startup
+        correctly)
+        
+    Yes, installed with no issues.
+        
+  - Were errors encountered when executing code according to the
+        documentation?
+        
+      +  In the Using the Package section of the vignette, the build.ds function is missing the argument h and the integers need to be passed as a vector. The function's usage is correct in the build.ds documentation.
+      
+      +  Referring to vignette, in the example under access the matrix using the @ symbol, I’m guessing this should be F<-             ds.frame@matrix
+      
+
+**Ease of use**
+    
+  - Is it clear how to use the analytic? (i.e. is the documentation
+        clear)
+        
+      +  For ease of use, change the name of the vignette to the exact name of package
+         i.e vignette("FRameBuildR-Intro") should be vignette(“FRameBuildR”). 
+         
+         Basically, I had to manually click my files to access the vignette because I did not know its name.
+      +	 No package level documentation, accessible via ?FRame.BuildR. However, this is ok since there is a vignette
+      +  For the stenier method, I would include a BIBD matrix in the package for ease of testing
+      +	 Function documentation is clear
+
+        
+  - Are the visualizations/plots interpretable?
+  
+      No explicit visualizations but the viewable matrices are interpretable. For example, the Equiangular Tight Frame produced by the frame.ds function  is clearly described in the documentation.
+      
+**Final Grade**
+
+  - Please provide a final grade
+  
+    Outstanding package. Minor fixes are needed in the vignette to make it more consistent with the function documentation but otherwise great job. 49/50
